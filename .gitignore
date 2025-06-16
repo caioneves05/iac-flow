@@ -1,34 +1,15 @@
-# Arquivos e diretórios locais do Terraform
+# Terraform directories
+.terraform/
 *.tfstate
 *.tfstate.backup
-*.tfstate.lock.info
-*.tfvars
-*.terraform.lock.hcl
 
-# Diretório .terraform
-.terraform/
-
-terraform.tfstate.backup
-terraform.tfstate
-
-# Arquivos de crash log
+# Crash logs
 crash.log
-crash.*.log
 
-# Arquivos de backup ou temporários
-*.bak
-*.swp
-*~
+# Terraform variable files
+*.tfvars
+*.tfvars.json
 
-# Arquivos de configuração sensíveis
-secrets.tf
+# Override files
 override.tf
 override.tf.json
-*.auto.tfvars
-
-# Arquivos de plano do Terraform
-*.plan
-*.tfplan
-
-# Arquivos de módulos baixados
-modules/
