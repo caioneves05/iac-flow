@@ -8,6 +8,9 @@
 # Diretório .terraform
 .terraform/
 
+terraform.tfstate.backup
+terraform.tfstate
+
 # Arquivos de crash log
 crash.log
 crash.*.log
