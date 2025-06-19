@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "caioneves-bucket-iac"
+  bucket = "caioneves-bucket-iac-${terraform.workspace}"
 
   tags = {
-    Name = "teste-iac"
     Iac = true
+    context = "${terraform.workspace}"
   }
 }
